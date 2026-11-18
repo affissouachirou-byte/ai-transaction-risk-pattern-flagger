@@ -1,0 +1,21 @@
+# Full source and output datasets are local only
+data/validated/
+data/outputs/
+data/raw/
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Local environments, runtime artefacts
+.venv/
+.venv*/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+.DS_Store
+.ipynb_checkpoints/
+# Machine-specific outputs
+evaluation/phase4_structural_results.json

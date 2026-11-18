@@ -1,0 +1,1 @@
+Synthetic, illustrative micro-fixture only. This repository intentionally does **not** include the author's nearly 1.2 million original synthetic records. The sample cannot reproduce the published 180,346-indicator count.

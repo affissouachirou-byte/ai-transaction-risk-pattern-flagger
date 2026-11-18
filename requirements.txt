@@ -1,0 +1,7 @@
+# Local investigation / evaluation tools (Python 3.11)
+duckdb>=1.4,<3
+pydantic>=2.10,<3
+openai>=2,<3
+pytest>=8,<10
+# PySpark 3.5.7 is required only when executing src/risk_engine.py locally.
+# The validated reference run used Databricks notebooks/01_risk_analytics_databricks.py.
